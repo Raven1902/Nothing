@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f18d8d;
+}
+
+header {
+    background-color: #ebf128;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.card {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    
+    border: 1px solid #090909;
+    border-radius: 8px;
+    box-shadow: 0 10 0 5px #f10909;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f49c20;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="file"], textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+.card {
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgb(222, 216, 216);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(248, 14, 14, 0.83);
+}
+
+/* Add some padding inside the card container */
+.container {
+    
+    padding: 2px 16px;
+}
+
+.custom-button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 200px;
+    border-radius: 10px;
+    text-decoration: thickness 20px;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #038c5a;
+    box-shadow: 8px -2px 16px #ebf128;
+}

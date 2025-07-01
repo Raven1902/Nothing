@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Healthcare and Animal Identification</title>
+    <link rel="stylesheet" href="C:\M.L-project\css-file.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#register-pet">Register Pet</a></li>
+                <li><a href="#weight-tracker">Weight Tracker</a></li>
+                <li><a href="#care-diary">Care Diary</a></li>
+                <li><a href="#vet-clinics">Veterinary Clinics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="register-pet">
+            <h2>Register Your Pet</h2>
+            <form>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Pet Name</h2>
+                    </div>
+                    <div class="card-body">
+                        <label for="pet-name">Enter your pet's name:</label>
+                        <input type="text" id="pet-name" name="pet-name"><br><br>
+                    </div>
+                </div>
+                
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Vaccination Records</h2>
+                    </div>
+                    <div class="card-body">
+                        <label for="vaccination-records">Upload Vaccination Records:</label>
+                        <input type="file" id="vaccination-records" name="vaccination-records"><br><br>
+                        <input type="submit" value="Register Pet">
+                    </div>
+                </div>
+                
+            </form>
+        </section>
+
+        <div class="card">
+            <div class="card-header">
+                <h2>Weight Tracker</h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <label for="pet-weight">Pet Weight:</label>
+                    <input type="number" id="pet-weight" name="pet-weight" placeholder="Kg" min="1"><br><br>
+                    <input type="submit" value="Track Weight">
+                </form>
+            </div>
+        </div>
+        
+        <div class="custom-button">
+        <a href="C:\M.L-project\diary for pet.html">Note's for your pet</a>
+        </div>
+
+        <section id="vet-clinics">
+            <h2>Veterinary Clinics</h2>
+            <ul id="clinic-list">
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218450.jpg?size=626&ext=jpg&ga=GA1.1.319824155.1721325388&semt=ais_hybrid" alt="Avatar" style="width:80%">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+
+                
+                <!-- clinic list will be generated dynamically using JavaScript -->
+            </ul>
+        </section>
+    </main>
+    <script src="C:\M.L-project\java-file.js"></script>
+</body>
+</html>
