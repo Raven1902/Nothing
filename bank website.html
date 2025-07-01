@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+body {
+  background-color: rgb(32, 155, 250);
+}
+h1{
+  color:black;
+  text-align: center;
+}
+h2{ 
+  color: brown;
+  text-align:left;
+}
+  
+</style>
+<h1> ATM / Debit card application form</h1>
+
+<form action="/action_page.php">
+  <label for="number"> Enter account number:</label><br>
+  <input type="number" id="fname" name="fname" value=""><br>
+  <label for="lname"> Enter The Name :</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+
+</form> 
+
+<h2> Account Type</h2>
+
+<p> Select your Account Type :</p>
+
+<form>
+  <input type="radio" id="Saving" name="fav_language" value="Saving">
+  <label for="saving">Saving</label><br>
+  <input type="radio" id="Current" name="fav_language" value="current">
+  <label for="Current">Current</label><br>
+</form>
+<h2> Update Account Details</h2>
+<p> Select details </p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="Adhar card " name="Adhar card" value="Adhar card">
+  <label for="Adhar card"> Adhar card</label><br>
+  <input type="checkbox" id="Phone number" name="phone number" value="Phone number">
+  <label for="Phone number"> Phone number</label><br>
+  <input type="checkbox" id="Email id " name="Email id " value="Email id ">
+  <label for="Email id "> Email id </label><br><br>
+ 
+</form> 
+<input type="submit">
+
+</body>
+</html>
